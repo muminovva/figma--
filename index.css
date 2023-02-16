@@ -1,0 +1,428 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Albert Sans', sans-serif;
+
+}
+.list-item{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    list-style: none;
+    margin-left: 30px;
+}
+.ux{
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+}
+.me{
+    position: absolute;
+    top: -500px;
+}
+.meee{
+    position: absolute;
+    top: -500px;
+    left: 300px;
+}
+
+
+.tel{
+    font-family: 'Museo Sans Cyrl';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+
+}
+nav{
+    margin-top: 10px;
+    padding-top: 16px;
+    padding-bottom: 6px;
+    text-align: center;
+    margin-left: 200px;
+    width: 1100px;
+    background: #FFFFFF;
+box-shadow: -5px 5px 10px rgba(221, 221, 221, 0.2), 5px -5px 10px rgba(221, 221, 221, 0.2), -5px -5px 10px rgba(255, 255, 255, 0.9), 5px 5px 13px rgba(221, 221, 221, 0.9), inset 1px 1px 2px rgba(255, 255, 255, 0.3), inset -1px -1px 2px rgba(221, 221, 221, 0.5);
+border-radius: 10px;
+
+}
+.svyaz{
+        font-family: 'Museo Sans Cyrl';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    background: #3058FE;
+    border-radius: 0px 10px 10px 0px;
+    padding: 17px 57px 17px 70px;
+    position: absolute;
+    top: -15px;
+    left: 50px;
+}
+.big{
+    position: relative;
+}
+.agent{
+   margin-top: 30px;
+font-weight: 300;
+font-size: 48px;
+line-height: 150px;
+text-transform: uppercase;
+color: #000000;
+
+}
+.key{
+        font-family: 'Museo Sans Cyrl';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 46px;
+    /* identical to box height */
+
+    letter-spacing: 0.5em;
+    text-transform: uppercase;
+
+    color: #040404;
+}
+.pokup{
+    font-family: 'Museo Sans Cyrl';
+font-style: normal;
+font-weight: 600;
+font-size: 38px;
+line-height: 46px;
+color: #040404;
+margin-top: 30px;
+
+}
+span{
+    font-family: 'Museo Sans Cyrl';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 46px;
+    margin-top: 34px;
+    color: #3058FE;
+    
+}
+.sifr{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.3em;
+    color: #000000;
+    margin-top: 53px;
+}
+.nom{
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 86px;
+    margin-left: 70px;
+    color: #000000;
+    margin-top: 20px;
+}
+.lida{
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.3em;
+    color: #000000;
+}
+.btn{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    background: #3058FE;
+    border-radius: 40px;
+    padding: 24px 78px;
+    margin-left: 30px;
+    margin-top: 20px;
+    position: absolute;
+    top: -250px;
+    left: 100px;
+}
+.img{
+    position: relative;
+}
+.imge{
+    position: absolute;
+    top: -80px;
+    left: 65px;
+}
+.section1{
+    margin-top: 170px;
+}
+.audio{
+    font-family: 'Museo Sans Cyrl';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 34px;
+    color: #000000;
+}
+.expert{
+        font-family: 'Museo Sans Cyrl';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 45px;
+    color: #000000;
+    margin-top: 66px;
+}
+.commont{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 45px;
+    color: #000000;
+
+}
+input{
+    border: 1px solid #A4B4B8;
+    border-radius: 5px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    opacity: 0.4;
+    padding: 10px;
+    width: 370px;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+.knopka{
+    font-family: 'Museo Sans Cyrl';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    color: #646161;
+    padding-top: 20px;
+}
+.ot{
+    font-family: 'Montserrat Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFEFE;
+    background: #3058FE;
+    border-radius: 30px;
+    padding: 12px 18px;
+    margin-left: 130px;
+    width: 300px;
+    border: none;
+    margin-bottom: 30px;
+}
+.card{
+    background: #FFFFFF;
+    border: none;
+    box-shadow: -8px 8px 16px rgba(214, 214, 214, 0.2), 8px -8px 16px rgba(214, 214, 214, 0.2), -8px -8px 16px rgba(255, 255, 255, 0.9), 8px 8px 20px rgba(214, 214, 214, 0.9), inset 1px 1px 2px rgba(255, 255, 255, 0.3), inset -1px -1px 2px rgba(214, 214, 214, 0.5);
+    border-radius: 10px;
+}
+.keys{
+    font-family: 'Roboto Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 52px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #000000;
+    margin-top: 50px;
+}
+.bez{
+    font-family: 'Museo Sans Cyrl';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 38px;
+    line-height: 46px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-top: 40px;
+}
+.otchot{
+    font-family: 'Museo Sans Cyrl';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 34px;
+    color: #000000;
+    margin-top: 70px;
+}
+#kep{
+    margin-top: 50px;
+}
+.byujet{
+    font-family: 'Museo Sans Cyrl';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    margin-top: 85px;
+}
+.larin{
+    font-family: 'Museo Sans Cyrl';
+    font-style: normal;
+    font-weight: 250;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    margin-left: 90px;
+    margin-top: 70px;
+}
+.glav{
+        font-family: 'Museo Sans Cyrl';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 44px;
+    line-height: 53px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-top: 70px;
+}
+.atom{
+    font-family: 'Museo Sans Cyrl';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 36px;
+    color: #000000;
+}
+.skachat{
+    font-family: 'Montserrat Medium';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #3058FE;
+    border-radius: 30px;
+    padding: 18px 60px;
+    border: none;
+    margin-top: 150px;
+    margin-left: 250px;
+}
+.vawey{
+    font-family: 'Museo Sans Cyrl';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    margin-left: 10px;
+}
+.mee{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 78px;
+    margin-right: 40px;
+}
+.miki{
+    display: flex;
+    justify-content: flex-start;
+   
+}
+.naa{
+    font-family: 'Museo Sans Cyrl';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    margin-top: 40px;
+}
+.analitik{
+    font-family: 'Museo Sans Cyrl';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+.yandek{
+    font-family: 'Museo Sans Cyrl';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #8A8A8A;
+    margin-top: -10px;
+}
+.het{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 60px;
+    margin-right: 30px;
+}
+.hey{
+    margin-left: 20px;
+}
+.lee{
+    display: flex;
+    justify-content: flex-start;
+}
+.imge{
+    position: relative;
+}
+.image{
+    position: absolute;
+    top: 170px;
+    left: -60px;
+}
+.kak{
+    font-family: 'Museo Sans Cyrl';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 44px;
+    line-height: 53px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-top: 70px;
+}
+#keyi{
+    margin-top: 50px;
+    margin-left: 80px;
+}
+.seychas{
+    font-family: 'Museo Sans Cyrl';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 22px;
+    color: #000000;
+   margin-top: 50px;
+}
+.minute{
+    font-family: 'Museo Sans Cyrl';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #8A8A8A;
+    margin-top: -10px;
+}
+.fa-brands{
+    margin-top: 90px;
+    margin-left: 20px;
+}
+@media(max-width: 575px){
+    
+}
